@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="nav.css">
+    <style>
+        body {
+            background-color: #111;
+            color: #fff;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+      
+
+        /* Page Content */
+        .banner img {
+            width: 100%;
+            height: auto;
+        }
+
+        .events-header {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .events-header h1 {
+            font-size: 2.5rem;
+            color: #fff;
+            margin-bottom: 10px;
+        }
+
+        .events-header p {
+            font-size: 1.2rem;
+            color: #ccc;
+        }
+
+        /* Events Section */
+        .event-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 40px;
+            padding: 0 20px;
+        }
+
+        .event-card {
+            background-color: #222;
+            border-radius: 8px;
+            width: 30%;
+            margin-bottom: 20px;
+            padding: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .event-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+        }
+
+        .event-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .event-card h3 {
+            font-size: 1.5rem;
+            color: #fff;
+            margin: 15px 0 10px;
+        }
+
+        .event-card p {
+            font-size: 1rem;
+            color: #ccc;
+            margin-bottom: 10px;
+        }
+
+        .event-card .date {
+            font-size: 0.9rem;
+            color: #bbb;
+            margin-bottom: 15px;
+        }
+
+        .event-card a {
+            color: #007BFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .event-card {
+                width: 100%;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <nav>
+        <h1>CAMPIX.</h1>
+        <div class="nav2">
+            <div class="nav-elem">
+                <h4 class="active">Home</h4>
+            </div>
+            <div class="nav-elem">
+                <h4>Platform</h4>
+            </div>
+            <div class="nav-elem">
+                <h4>Services</h4>
+            </div>
+            <div class="nav-elem">
+                <h4>Resources</h4>
+            </div>
+            <div class="nav-elem">
+                <h4><a href="#">Events</a></h4>
+            </div>
+        </div>
+        <div class="nav-bottom"></div>
+    </nav>
+
+    <!-- <section class="banner">
+        <img src="https://sunshineplacementservices.in/images/service/service-banner.png" alt="events-banner">
+    </section> -->
+
+    <section class="events-header">
+        <h1>Upcoming & Past Events</h1>
+        <p>Join our exciting events and stay updated with the latest happenings at Sunshine Placement Services.</p>
+    </section>
+
+    <section class="event-container">
+        <!-- Event 1 -->
+        <div class="event-card">
+            <img src="http://tnp.sliet.ac.in/files/2022/10/5-300x300.png" alt="Event Image 1">
+            <h3>Career Fair 2024</h3>
+            <p>Join us for an exciting career fair where top companies come to recruit new talent.</p>
+            <p class="date">Date: March 25, 2024</p>
+            <a href="#">Learn More</a>
+        </div>
+
+        <!-- Event 2 -->
+        <div class="event-card">
+            <img src="http://tnp.sliet.ac.in/files/2022/10/5-300x300.png" alt="Event Image 2">
+            <h3>Resume Building Workshop</h3>
+            <p>Attend our resume workshop and learn how to create a professional resume that stands out.</p>
+            <p class="date">Date: February 14, 2024</p>
+            <a href="#">Learn More</a>
+        </div>
+
+        <!-- Event 3 -->
+        <div class="event-card">
+            <img src="http://tnp.sliet.ac.in/files/2022/10/1-300x300.png" alt="Event Image 3">
+            <h3>Mock Interview Sessions</h3>
+            <p>Prepare for your next big interview by attending our mock interview sessions.</p>
+            <p class="date">Date: January 20, 2024</p>
+            <a href="#">Learn More</a>
+        </div>
+    </section>
+
+</body>
+
+</html>

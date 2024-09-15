@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        body {
+            background-color: #000000;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        } */
+         body{
+            background-color: black;
+         }
+
+       .container h1 {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 2.5rem;
+            color: #ffffff;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .resource-section {
+            margin-bottom: 50px;
+        }
+
+        .resource-section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #007BFF;
+        }
+
+        .downloads {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .downloads a {
+            background-color: #fff;
+            border: 2px solid #007BFF;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-align: center;
+            color: #007BFF;
+            font-weight: 600;
+            margin-bottom: 20px;
+            width: 30%;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .downloads a:hover {
+            background-color: #007BFF;
+            color: #fff;
+        }
+
+        .video-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .video {
+            width: 48%;
+            background-color: #fff;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .video iframe {
+            width: 100%;
+            height: 250px;
+            border: none;
+        }
+
+        .video h3 {
+            margin: 15px 0;
+            font-size: 1.2rem;
+            color: #007BFF;
+        }
+
+        .external-links ul {
+            list-style: none;
+        }
+
+        .external-links ul li {
+            margin-bottom: 10px;
+        }
+
+        .external-links ul li a {
+            color: #007BFF;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 600;
+        }
+
+        .external-links ul li a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <h1>CAMPIX.</h1>
+        <div class="nav2">
+            <div class="nav-elem">
+                <h4 class="active">Home</h4>
+            </div>
+            <div class="nav-elem">
+                <h4>Platform</h4>
+            </div>
+            <div class="nav-elem">
+                <h4>Services</h4>
+            </div>
+            <div class="nav-elem">
+                <h4>Resources</h4>
+            </div>
+            <div class="nav-elem">
+                <h4><a href="#">Events</a></h4>
+            </div>
+        </div>
+        <div class="nav-bottom"></div>
+    </nav>
+
+    <div class="container">
+        <h1>Resources</h1>
+
+        <!-- Downloads Section -->
+        <section class="resource-section">
+            <h2>Downloadable Resources</h2>
+            <div class="downloads">
+                <a href="#">Resource 1 (PDF)</a>
+                <a href="#">Resource 2 (PDF)</a>
+                <a href="#">Resource 3 (DOC)</a>
+            </div>
+        </section>
+
+        <!-- Video Tutorials Section -->
+        <section class="resource-section">
+            <h2>Video Tutorials</h2>
+            <div class="video-container">
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/videoid1" title="Video Tutorial 1"></iframe>
+                    <h3>How to Use Our Platform</h3>
+                </div>
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/videoid2" title="Video Tutorial 2"></iframe>
+                    <h3>Setting Up Your Profile</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- External Links Section -->
+        <section class="resource-section">
+            <h2>External Resources</h2>
+            <div class="external-links">
+                <ul>
+                    <li><a href="https://example.com" target="_blank">External Resource 1</a></li>
+                    <li><a href="https://example.com" target="_blank">External Resource 2</a></li>
+                    <li><a href="https://example.com" target="_blank">External Resource 3</a></li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+</body>
+
+</html>

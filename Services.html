@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> campix Services</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="nav.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    /* * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #fff;
+    }
+
+    html, body {
+        height: 100%;
+        width: 100%;
+    } */
+
+    body {
+        background-color: #111;
+    }
+
+    .service {
+        margin-top: 100px;
+    }
+
+    .banner img {
+        
+        width: 100%;
+        height: auto;
+    }
+
+    .content-wrapper {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .content-wrapper h1 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+
+    .content-wrapper p {
+        font-size: 1.1rem;
+        margin-bottom: 20px;
+        line-height: 1.6;
+    }
+
+    .box-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 30px;
+        padding: 0 20px;
+    }
+
+    .box {
+        background-color: #222;
+        border-radius: 8px;
+        width: 30%;
+        padding: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .box img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    .box h3 {
+        margin: 10px 0;
+        font-size: 1.2rem;
+        color: #fff;
+    }
+
+    .box p {
+        font-size: 1rem;
+        color: #ccc;
+    }
+
+    @media (max-width: 768px) {
+        .box {
+            width: 100%;
+        }
+    }
+</style>
+
+<body>
+    <nav>
+        <h1>CAMPIX.</h1>
+        <div class="nav2">
+            <div class="nav-elem">
+                <h4 class="active">Home</h4>
+            </div>
+            <div class="nav-elem">
+                <h4>Platform</h4>
+            </div>
+            <div class="nav-elem">
+                <h4>Services</h4>
+            </div>
+            <div class="nav-elem">
+                <h4>Resources</h4>
+            </div>
+            <div class="nav-elem">
+                <h4><a href="#">Events</a></h4>
+            </div>
+        </div>
+        <div class="nav-bottom"></div>
+    </nav>
+    <section class="service">
+        <div class="banner">
+            <img src="https://sunshineplacementservices.in/images/service/service-banner.png" alt="job-banner">
+        </div>
+
+        <div class="content-wrapper">
+            <h1>Helping you create the Right-Strategy!</h1>
+            <p>Sunshine Placement Services follows customized steps to provide the best services to its clients and
+                candidates. The steps include Plan, Execute & Deliver. Thus, we maintain high standards of efficiency,
+                integrity, ethics, and confidentiality while rendering our services. The services offered by us are as
+                follows:</p>
+        </div>
+
+        <div class="box-container">
+            <!-- Box 1 -->
+            <div class="box">
+                <img src="https://sunshineplacementservices.in/images/service/1.jpg" alt="Placeholder Image 1">
+                <h3>Recruitment & Manpower Providing Services</h3>
+                <p>This is the description for Recruitment & Manpower Providing Services.</p>
+            </div>
+            <!-- Box 2 -->
+            <div class="box">
+                <img src="https://sunshineplacementservices.in/images/service/2.jpg" alt="Placeholder Image 2">
+                <h3>Career Counseling, Guidance & Development Services</h3>
+                <p>This is the description for Career Counseling, Guidance & Development Services.</p>
+            </div>
+            <!-- Box 3 -->
+            <div class="box">
+                <img src="https://sunshineplacementservices.in/images/service/3.jpg" alt="Placeholder Image 3">
+                <h3>Resume Building Services</h3>
+                <p>This is the description for Resume Building Services.</p>
+            </div>
+            <!-- Box 4 -->
+            <div class="box">
+                <img src="https://sunshineplacementservices.in/images/service/4.jpg" alt="Placeholder Image 1">
+                <h3>Recruitment & Manpower Providing Services</h3>
+                <p>This is the description for Recruitment & Manpower Providing Services.</p>
+            </div>
+            <!-- Box 5 -->
+            <div class="box">
+                <img src="https://sunshineplacementservices.in/images/service/5.jpg" alt="Placeholder Image 2">
+                <h3>Career Counseling, Guidance & Development Services</h3>
+                <p>This is the description for Career Counseling, Guidance & Development Services.</p>
+            </div>
+            <!-- Box 6 -->
+            <div class="box">
+                <img src="https://sunshineplacementservices.in/images/service/6.jpg" alt="Placeholder Image 3">
+                <h3>Resume Building Services</h3>
+                <p>This is the description for Resume Building Services.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</body>
+
+</html>
